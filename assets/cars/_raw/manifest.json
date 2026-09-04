@@ -1,0 +1,745 @@
+{
+ "generated": "2026-09-04",
+ "source": "iMessage chat.db (read-only) + WhatsApp copy; converted JPEG max 1600w q82",
+ "rule": "class=doc (licenses/insurance/receipts) and PII screenshots are NOT staged; listed for audit only",
+ "images": [
+  {
+   "file": "car-plug-miami/20250319_1.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 14:15:38",
+   "class": "doc",
+   "staged": false,
+   "note": "Client driver's license photo (PII) - sent by OJ to vendor",
+   "from": "me",
+   "src_attachment": "IMG_9214.png",
+   "attachment_rowid": 55492,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "V: Let\u2019s lock in | V: Bet send insurance I got two available | ME: 21st and 22nd | ME: 1 urus"
+  },
+  {
+   "file": "car-plug-miami/20250319_2.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 14:15:38",
+   "class": "doc",
+   "staged": false,
+   "note": "Client auto-insurance card (PII) - sent by OJ to vendor",
+   "from": "me",
+   "src_attachment": "IMG_9215.png",
+   "attachment_rowid": 55493,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "V: Let\u2019s lock in | V: Bet send insurance I got two available | ME: 21st and 22nd | ME: 1 urus"
+  },
+  {
+   "file": "car-plug-miami/20250319_3.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 14:21:25",
+   "class": "car",
+   "staged": true,
+   "note": "Lamborghini Urus, white / white interior, starlight roof - composite (low-res 576x1024)",
+   "from": "+13238409790",
+   "src_attachment": "77afd223-86d0-4bb9-b870-dba155c907e3.heic",
+   "attachment_rowid": 55495,
+   "size": [
+    576,
+    1024
+   ],
+   "context": "V: I can do it at $700 a day. White with white interior and stars on roof | ME: Bet let\u2019s do it | ME: Got a contract? And where do I send | V: I gotta verify inside first"
+  },
+  {
+   "file": "car-plug-miami/20250319_4.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:17",
+   "class": "car",
+   "staged": true,
+   "note": "Lamborghini Urus red-on-red, front 3/4, mural backdrop",
+   "from": "+13238409790",
+   "src_attachment": "DSC00159.heic",
+   "attachment_rowid": 55499,
+   "size": [
+    1600,
+    1066
+   ],
+   "context": "ME: Yo | V: The white urus want 3 day minimum for spring break weekend. Can you do it ? If not I got a red urus | V: Red on red with captain seats. I can do this at $800 a day do 1600 total"
+  },
+  {
+   "file": "car-plug-miami/20250319_5.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:17",
+   "class": "car",
+   "staged": true,
+   "note": "Lamborghini Urus red-on-red, doors open, rear 3/4",
+   "from": "+13238409790",
+   "src_attachment": "DSC00177.heic",
+   "attachment_rowid": 55500,
+   "size": [
+    1600,
+    1066
+   ],
+   "context": "ME: Yo | V: The white urus want 3 day minimum for spring break weekend. Can you do it ? If not I got a red urus | V: Red on red with captain seats. I can do this at $800 a day do 1600 total"
+  },
+  {
+   "file": "car-plug-miami/20250319_6.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:17",
+   "class": "car",
+   "staged": true,
+   "note": "Urus red-on-red rear captain seats w/ screens",
+   "from": "+13238409790",
+   "src_attachment": "DSC00147.heic",
+   "attachment_rowid": 55501,
+   "size": [
+    1600,
+    1066
+   ],
+   "context": "ME: Yo | V: The white urus want 3 day minimum for spring break weekend. Can you do it ? If not I got a red urus | V: Red on red with captain seats. I can do this at $800 a day do 1600 total"
+  },
+  {
+   "file": "car-plug-miami/20250319_7.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:17",
+   "class": "car",
+   "staged": true,
+   "note": "Urus red-on-red side profile, Bayside",
+   "from": "+13238409790",
+   "src_attachment": "DSC00053.heic",
+   "attachment_rowid": 55502,
+   "size": [
+    1600,
+    1066
+   ],
+   "context": "ME: Yo | V: The white urus want 3 day minimum for spring break weekend. Can you do it ? If not I got a red urus | V: Red on red with captain seats. I can do this at $800 a day do 1600 total"
+  },
+  {
+   "file": "car-plug-miami/20250319_8.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:17",
+   "class": "car",
+   "staged": true,
+   "note": "Urus red-on-red front, Bayside",
+   "from": "+13238409790",
+   "src_attachment": "DSC00036.heic",
+   "attachment_rowid": 55503,
+   "size": [
+    1600,
+    1066
+   ],
+   "context": "ME: Yo | V: The white urus want 3 day minimum for spring break weekend. Can you do it ? If not I got a red urus | V: Red on red with captain seats. I can do this at $800 a day do 1600 total"
+  },
+  {
+   "file": "car-plug-miami/20250319_9.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:17",
+   "class": "car",
+   "staged": true,
+   "note": "Urus red-on-red front 3/4, Skyviews wheel backdrop (portrait)",
+   "from": "+13238409790",
+   "src_attachment": "DSC00025.heic",
+   "attachment_rowid": 55504,
+   "size": [
+    1600,
+    2400
+   ],
+   "context": "ME: Yo | V: The white urus want 3 day minimum for spring break weekend. Can you do it ? If not I got a red urus | V: Red on red with captain seats. I can do this at $800 a day do 1600 total"
+  },
+  {
+   "file": "car-plug-miami/20250319_10.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:17",
+   "class": "car",
+   "staged": true,
+   "note": "Urus red-on-red driver door open, red interior",
+   "from": "+13238409790",
+   "src_attachment": "DSC00132.heic",
+   "attachment_rowid": 55505,
+   "size": [
+    1600,
+    2400
+   ],
+   "context": "ME: Yo | V: The white urus want 3 day minimum for spring break weekend. Can you do it ? If not I got a red urus | V: Red on red with captain seats. I can do this at $800 a day do 1600 total"
+  },
+  {
+   "file": "car-plug-miami/20250319_11.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:57",
+   "class": "car",
+   "staged": true,
+   "note": "Urus red interior, red seats (low-res 645x1146)",
+   "from": "+13238409790",
+   "src_attachment": "F8CED5DF-3B83-434E-A5D3-7B1FE89C1DB5.heic",
+   "attachment_rowid": 55506,
+   "size": [
+    645,
+    1146
+   ],
+   "context": "V: Red on red with captain seats. I can do this at $800 a day do 1600 total | ME: One sec | V: Ok"
+  },
+  {
+   "file": "car-plug-miami/20250319_12.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 15:20:57",
+   "class": "car",
+   "staged": true,
+   "note": "Urus red interior rear seat screen (low-res)",
+   "from": "+13238409790",
+   "src_attachment": "2C6ADA0B-7BB7-41DA-8FA0-FE70B1871A17.heic",
+   "attachment_rowid": 55507,
+   "size": [
+    645,
+    1146
+   ],
+   "context": "V: Red on red with captain seats. I can do this at $800 a day do 1600 total | ME: One sec | V: Ok"
+  },
+  {
+   "file": "car-plug-miami/20250319_13.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-19 16:38:15",
+   "class": "doc",
+   "staged": false,
+   "note": "Zelle payment confirmation $700 to vendor (financial/PII)",
+   "from": "me",
+   "src_attachment": "IMG_9233.PNG",
+   "attachment_rowid": 55548,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME: Sending | V: Ok | V: Got it Brodie | V: Actually I can\u2019t even make the contract until the day they come bc I gotta put mileage it\u2019s at and gas % on it. But regardless they locked in"
+  },
+  {
+   "file": "car-plug-miami/20250320_1.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:28:21",
+   "class": "car",
+   "staged": true,
+   "note": "Lamborghini Urus S pearl orange, rear 3/4 waterfront",
+   "from": "+13238409790",
+   "src_attachment": "IMG_9293.heic",
+   "attachment_rowid": 55714,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Bet I\u2019ll give them couple options | ME: Yo he about to send other options, it won\u2019t be the white one tho since yall don\u2019t like it | V: I could upgrade yall to the Urus S, same rate . Lmk what you t"
+  },
+  {
+   "file": "car-plug-miami/20250320_2.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:28:21",
+   "class": "car",
+   "staged": true,
+   "note": "Urus S orange, side, night palms",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1149.heic",
+   "attachment_rowid": 55715,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Bet I\u2019ll give them couple options | ME: Yo he about to send other options, it won\u2019t be the white one tho since yall don\u2019t like it | V: I could upgrade yall to the Urus S, same rate . Lmk what you t"
+  },
+  {
+   "file": "car-plug-miami/20250320_3.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:28:21",
+   "class": "car",
+   "staged": true,
+   "note": "Urus S orange, front 3/4, night",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1150.heic",
+   "attachment_rowid": 55716,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Bet I\u2019ll give them couple options | ME: Yo he about to send other options, it won\u2019t be the white one tho since yall don\u2019t like it | V: I could upgrade yall to the Urus S, same rate . Lmk what you t"
+  },
+  {
+   "file": "car-plug-miami/20250320_4.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:28:21",
+   "class": "car",
+   "staged": true,
+   "note": "Urus S grey/orange seat detail",
+   "from": "+13238409790",
+   "src_attachment": "IMG_9308.heic",
+   "attachment_rowid": 55717,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Bet I\u2019ll give them couple options | ME: Yo he about to send other options, it won\u2019t be the white one tho since yall don\u2019t like it | V: I could upgrade yall to the Urus S, same rate . Lmk what you t"
+  },
+  {
+   "file": "car-plug-miami/20250320_5.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus S steering wheel / dash, orange trim",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1010.heic",
+   "attachment_rowid": 55718,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250320_6.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus Mansory carbon rear diffuser/exhaust detail",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1005.heic",
+   "attachment_rowid": 55719,
+   "size": [
+    1600,
+    1200
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250320_7.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus Mansory rear wing, MANSORY badge",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1003.heic",
+   "attachment_rowid": 55720,
+   "size": [
+    1600,
+    1200
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250320_8.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus Mansory orange/black rear seats",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1012.heic",
+   "attachment_rowid": 55721,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250320_9.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus Mansory grey, front 3/4, palms",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1037.heic",
+   "attachment_rowid": 55722,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250320_10.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus Mansory carbon fender vent badge",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1015.heic",
+   "attachment_rowid": 55723,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250320_11.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus Mansory grey, front 3/4, stadium backdrop",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1001.heic",
+   "attachment_rowid": 55724,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250320_12.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:35:08",
+   "class": "car",
+   "staged": true,
+   "note": "Urus Mansory cockpit, orange/black",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1011.heic",
+   "attachment_rowid": 55725,
+   "size": [
+    1600,
+    2133
+   ],
+   "context": "V: Let me see all options | V: And we could book with u if it\u2019s actually not gonna be double booked | V: Yeah these ones aren\u2019t double booked. I have the urus S orange and have this mansory urus but $"
+  },
+  {
+   "file": "car-plug-miami/20250330_1.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-30 21:18:56",
+   "class": "other",
+   "staged": false,
+   "note": "Client's TikTok screenshot (unrelated Urus), sent by client in group",
+   "from": "+13238409790",
+   "src_attachment": "IMG_1329.jpg",
+   "attachment_rowid": 57345,
+   "size": [
+    1179,
+    2209
+   ],
+   "context": "V: That\u2019s not same urus lol | V: I figured lmao | V: Naween this Juice again | V: Yooo"
+  },
+  {
+   "file": "car-broker-juice-rentals/20230714_1.jpg",
+   "vendor": "car-broker-juice-rentals",
+   "date": "2023-07-14 15:16:10",
+   "class": "doc",
+   "staged": false,
+   "note": "Cash App $400 deposit to $LavishExoticsMiami1 (financial)",
+   "from": "me",
+   "src_attachment": "IMG_4150.jpeg",
+   "attachment_rowid": 18000,
+   "size": [
+    1290,
+    2796
+   ],
+   "context": "V: Ok | V: Did he decide what he wants? | ME: S580 | ME: 7/20"
+  },
+  {
+   "file": "car-broker-juice-rentals/20230714_2.jpg",
+   "vendor": "car-broker-juice-rentals",
+   "date": "2023-07-14 15:23:00",
+   "class": "doc",
+   "staged": false,
+   "note": "Cash App $400 refund receipt (financial)",
+   "from": "+13053408825",
+   "src_attachment": "IMG_5964.jpeg",
+   "attachment_rowid": 17965,
+   "size": [
+    1284,
+    2778
+   ],
+   "context": "ME: Ok | ME: You can send it back my bad he playing | V: Gotcha my brother | ME: Thanks bro | ME: Urus tomorrow? 800 1 day?"
+  },
+  {
+   "file": "brett-mansion/20250604_1.jpg",
+   "vendor": "brett-mansion",
+   "date": "2025-06-04 21:40:21",
+   "class": "car",
+   "staged": true,
+   "note": "2018 Mercedes G550 G-Wagon black, aftermarket wheels (owner-lent)",
+   "from": "+14803260572",
+   "src_attachment": "IMG_8122.heic",
+   "attachment_rowid": 66196,
+   "size": [
+    1600,
+    1200
+   ],
+   "context": "V: You can use my Rolls-Royce or my G wagon... 2018 G wagon with Travis wheels... Rolls-Royce 1250 a day is what I charge for like a urus | ME: how much for the g wagon and the rolls Royce | V: You ar"
+  },
+  {
+   "file": "max-whatsapp/20260703_1.jpg",
+   "vendor": "max-whatsapp",
+   "date": "2026-07-03 10:58:07",
+   "class": "screenshot",
+   "staged": true,
+   "note": "WhatsApp screenshot of Max's forwarded car photos - grey/white Rolls interior + white Bentley GTC grids",
+   "from": "me",
+   "src_attachment": "IMG_9583.PNG",
+   "attachment_rowid": 134940,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME (forwarding Max's WhatsApp car options to client group): Let me know if yall still need cars ^ | Yellow Urus Stage 2 $900 per day | Blue Urus S $1000 | 2026 Cullinan $1600 | Spectre $1600 | Ferrari"
+  },
+  {
+   "file": "max-whatsapp/20260703_2.jpg",
+   "vendor": "max-whatsapp",
+   "date": "2026-07-03 10:58:07",
+   "class": "screenshot",
+   "staged": true,
+   "note": "WhatsApp screenshot - black/yellow Urus interior, white Bentley GTC, orange interior",
+   "from": "me",
+   "src_attachment": "IMG_9584.PNG",
+   "attachment_rowid": 134941,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME (forwarding Max's WhatsApp car options to client group): Let me know if yall still need cars ^ | Yellow Urus Stage 2 $900 per day | Blue Urus S $1000 | 2026 Cullinan $1600 | Spectre $1600 | Ferrari"
+  },
+  {
+   "file": "max-whatsapp/20260703_3.jpg",
+   "vendor": "max-whatsapp",
+   "date": "2026-07-03 10:58:07",
+   "class": "screenshot",
+   "staged": true,
+   "note": "WhatsApp screenshot - red Ferrari 488 grid (+6, no price caption) then '900 per day' + white Bentley Continental GTC grid",
+   "from": "me",
+   "src_attachment": "IMG_9585.PNG",
+   "attachment_rowid": 134942,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME (forwarding Max's WhatsApp car options to client group): Let me know if yall still need cars ^ | Yellow Urus Stage 2 $900 per day | Blue Urus S $1000 | 2026 Cullinan $1600 | Spectre $1600 | Ferrari"
+  },
+  {
+   "file": "max-whatsapp/20260703_4.jpg",
+   "vendor": "max-whatsapp",
+   "date": "2026-07-03 10:58:07",
+   "class": "screenshot",
+   "staged": true,
+   "note": "WhatsApp screenshot - white Bentley GTC (cont.) then '1100 per day' + matte-black Rolls-Royce Cullinan grid (white/red interior, +2)",
+   "from": "me",
+   "src_attachment": "IMG_9586.PNG",
+   "attachment_rowid": 134943,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME (forwarding Max's WhatsApp car options to client group): Let me know if yall still need cars ^ | Yellow Urus Stage 2 $900 per day | Blue Urus S $1000 | 2026 Cullinan $1600 | Spectre $1600 | Ferrari"
+  },
+  {
+   "file": "max-whatsapp/20260703_5.jpg",
+   "vendor": "max-whatsapp",
+   "date": "2026-07-03 11:41:19",
+   "class": "screenshot",
+   "staged": true,
+   "note": "WhatsApp screenshot - 'Phantom 2200 a day / G63 700 a day / GLE 400 a day / This is all I have available last min' + photos: black Phantom, black G63, white GLE",
+   "from": "me",
+   "src_attachment": "IMG_9587.PNG",
+   "attachment_rowid": 134939,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME to client group 7/3/26 after car list: I can grab one of these joints under my insurance too | Also still $250 balance + $600 cleaning left on the house"
+  },
+  {
+   "file": "car-plug-miami/20250320_13.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 15:56:24",
+   "class": "screenshot",
+   "staged": false,
+   "note": "iMessage thread screenshot (contains client email/phone) - not a car asset",
+   "from": "me",
+   "src_attachment": "IMG_9290.png",
+   "attachment_rowid": 55707,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME to Hines Bros client chat: Yo they giving yall the white one instead but I told them they gotta deliver it to the airport | (screenshots forwarded from Car Plug Miami)"
+  },
+  {
+   "file": "car-plug-miami/20250320_14.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 15:56:24",
+   "class": "screenshot",
+   "staged": false,
+   "note": "iMessage thread screenshot (vendor pickup address) - not a car asset",
+   "from": "me",
+   "src_attachment": "IMG_9291.png",
+   "attachment_rowid": 55708,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME to Hines Bros client chat: Yo they giving yall the white one instead but I told them they gotta deliver it to the airport | (screenshots forwarded from Car Plug Miami)"
+  },
+  {
+   "file": "car-plug-miami/20250320_15.jpg",
+   "vendor": "car-plug-miami",
+   "date": "2025-03-20 17:18:04",
+   "class": "screenshot",
+   "staged": false,
+   "note": "iMessage thread screenshot - not a car asset",
+   "from": "me",
+   "src_attachment": "IMG_9297.png",
+   "attachment_rowid": 55712,
+   "size": [
+    1320,
+    2868
+   ],
+   "context": "ME to Hines Bros: I'm gonna try my best bro... they might try to give you a different color instead (screenshot of Car Plug thread)"
+  },
+  {
+   "file": "mazi/20260705_1.jpg",
+   "vendor": "mazi",
+   "date": "2026-07-05 11:29:23",
+   "class": "other",
+   "staged": false,
+   "note": "Coco Miami club flyer (Loe Shimmy) - not a car",
+   "from": "+17867620676",
+   "src_attachment": "858699a8-11d1-4f40-984e-d66abef2429f.JPG",
+   "attachment_rowid": 135249,
+   "size": [
+    900,
+    1600
+   ],
+   "context": "Mazi in More Parties Mia group 7/5/26 (no caption); prior: ME: any lamb trucks available -> Yea 1k a day"
+  },
+  {
+   "file": "mazi/20260705_2.jpg",
+   "vendor": "mazi",
+   "date": "2026-07-05 11:29:23",
+   "class": "other",
+   "staged": false,
+   "note": "Booby Trap DaBaby flyer - not a car",
+   "from": "+17867620676",
+   "src_attachment": "70bf4167-830c-479b-ba87-085fc8f46b9b.JPG",
+   "attachment_rowid": 135250,
+   "size": [
+    928,
+    1144
+   ],
+   "context": "Mazi in More Parties Mia group 7/5/26 (no caption)"
+  },
+  {
+   "file": "mazi/20260705_3.jpg",
+   "vendor": "mazi",
+   "date": "2026-07-05 11:29:23",
+   "class": "other",
+   "staged": false,
+   "note": "Club table map - not a car",
+   "from": "+17867620676",
+   "src_attachment": "a3a1a32a-46c4-4058-8561-23cb1b9e46f5.jpeg",
+   "attachment_rowid": 135251,
+   "size": [
+    1206,
+    1008
+   ],
+   "context": "Mazi in More Parties Mia group 7/5/26 (no caption)"
+  },
+  {
+   "file": "mazi/20260705_4.jpg",
+   "vendor": "mazi",
+   "date": "2026-07-05 11:29:23",
+   "class": "other",
+   "staged": false,
+   "note": "Coco table pricing map - not a car",
+   "from": "+17867620676",
+   "src_attachment": "8f109b6d-da32-4e53-b3d9-d1a7333047b3.JPG",
+   "attachment_rowid": 135252,
+   "size": [
+    1216,
+    1294
+   ],
+   "context": "Mazi in More Parties Mia group 7/5/26 (no caption)"
+  }
+ ],
+ "videos_not_converted": [
+  {
+   "vendor": "car-plug-miami",
+   "aid": 55508,
+   "file": "~/Library/Messages/Attachments/07/07/at_0_59A7C54D-EE8F-4FD7-A351-3B31EF4171ED/869915d243cd45a689840c7b38f52ca0.mov",
+   "date": "2025-03-19 15:20:57",
+   "bytes": 7960488,
+   "context": "V: Red on red with captain seats. I can do this at $800 a day do 1600 total | ME: One sec | V: Ok"
+  }
+ ],
+ "attachments_unavailable": [
+  {
+   "vendor": "car-plug-miami",
+   "attachment_rowid": 55704,
+   "reason": "missing on disk ~/Library/Messages/Attachments/fa/10/8DA850EF-E1EF-4507-BD6A-7EA3ABE6607D/CE7AFC79-9F6A-4583-98CE-3B726124E408.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "car-plug-miami",
+   "attachment_rowid": 55705,
+   "reason": "non-image  D3372108-1A22-442B-8A89-4E7EA8CC7BE4.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "car-plug-miami",
+   "attachment_rowid": 57343,
+   "reason": "missing on disk ~/Library/Messages/Attachments/52/02/BFFE73AC-8976-4A4B-A856-02AA63B03AF3/A523B4C3-A008-4AEC-AEF5-BAA0C6407F20.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "car-plug-miami",
+   "attachment_rowid": 57344,
+   "reason": "non-image  95B3F670-16B2-451E-A9FB-ADCF74F65E3A.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "car-broker-juice-rentals",
+   "attachment_rowid": 94777,
+   "reason": "missing on disk ~/Library/Messages/Attachments/08/08/at_2_4948BBF3-6DCE-45B3-AFCD-B93B9C005287/IMG_5686.heic"
+  },
+  {
+   "vendor": "car-broker-juice-rentals",
+   "attachment_rowid": 94778,
+   "reason": "missing on disk ~/Library/Messages/Attachments/09/09/at_3_4948BBF3-6DCE-45B3-AFCD-B93B9C005287/IMG_5687.heic"
+  },
+  {
+   "vendor": "car-broker-juice-rentals",
+   "attachment_rowid": 94783,
+   "reason": "missing on disk ~/Library/Messages/Attachments/0a/10/at_4_4948BBF3-6DCE-45B3-AFCD-B93B9C005287/IMG_5685.heic"
+  },
+  {
+   "vendor": "car-broker-juice-rentals",
+   "attachment_rowid": 94786,
+   "reason": "missing on disk ~/Library/Messages/Attachments/06/06/at_0_4948BBF3-6DCE-45B3-AFCD-B93B9C005287/IMG_5689.heic"
+  },
+  {
+   "vendor": "car-broker-juice-rentals",
+   "attachment_rowid": 94792,
+   "reason": "missing on disk ~/Library/Messages/Attachments/07/07/at_1_4948BBF3-6DCE-45B3-AFCD-B93B9C005287/IMG_5688.heic"
+  },
+  {
+   "vendor": "cato-rentals",
+   "attachment_rowid": 97537,
+   "reason": "missing on disk ~/Library/Messages/Attachments/23/03/at_0_34BCE5CB-C8D3-441D-9D09-4BDE9CC0AD88/D6F836D3-4113-4315-8B30-25DC77CEF8A7.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "cato-rentals",
+   "attachment_rowid": 97759,
+   "reason": "missing on disk ~/Library/Messages/Attachments/eb/11/at_0_4FF31026-B0C6-429A-AD2B-DDCDD75A2450/93A68F9D-261D-4FE3-8DFF-09ACF080D35F.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "cato-rentals",
+   "attachment_rowid": 98248,
+   "reason": "missing on disk ~/Library/Messages/Attachments/eb/11/at_0_0F64CF48-187A-461A-BCA4-177D6A417CBD/29411FC5-8438-4E2B-8D94-9F1C7F417029.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "cato-rentals",
+   "attachment_rowid": 98679,
+   "reason": "missing on disk ~/Library/Messages/Attachments/47/07/at_0_D3FD39B8-DFDA-4D0F-9DEF-69481C558CFA/8FD55E13-08E2-4868-8CC4-6AC99A5D2743.pluginPayloadAttachment"
+  },
+  {
+   "vendor": "cato-rentals",
+   "attachment_rowid": 99039,
+   "reason": "missing on disk ~/Library/Messages/Attachments/e4/04/at_0_A5112F6F-C075-46A3-A1D2-DA4A6DE2F729/BD368B86-0BE5-44B0-8655-96581AEF47F7.pluginPayloadAttachment"
+  }
+ ]
+}

@@ -79,8 +79,11 @@
   .villa-body h3{font-size:24px}
   .villa-body .loc{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-top:4px}
   .villa-body .specs{font-size:13px;color:var(--ink-dim);margin-top:10px}
-  .villa-body a{display:inline-block;margin-top:16px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:3px}
-  .villa-body a:hover{color:var(--gold-bright);border-color:var(--gold)}
+  .villa-img{display:flex}
+  .villa-img .villa-more{position:absolute;right:12px;bottom:10px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);background:rgba(12,11,9,.7);padding:6px 10px;border:1px solid var(--line)}
+  .villa-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px}
+  .villa-links a{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:3px}
+  .villa-links a:hover{color:var(--gold-bright);border-color:var(--gold)}
   .villas-note{margin-top:34px;font-size:13.5px;color:var(--ink-faint);font-style:italic;font-family:'Cormorant Garamond',serif;font-size:17px}
 
   /* FLEET */
@@ -166,7 +169,7 @@
     <div class="svc-grid">
       <div class="svc"><div class="num">I</div><h3>Private Villas</h3><p>Vetted 5–8 bedroom homes across Miami — Brickell, the Venetian Islands, Coconut Grove and beyond.</p></div>
       <div class="svc"><div class="num">II</div><h3>Exotic Cars</h3><p>Urus, Cullinan, Spectre, Ferrari — delivered to your door, daily or for the full stay.</p></div>
-      <div class="svc"><div class="num">III</div><h3>Yachts &amp; Boats</h3><p>Day charters on Biscayne Bay, captained and stocked, sized to your group.</p></div>
+      <div class="svc"><div class="num">III</div><h3>Yachts, Boats &amp; Jet Skis</h3><p>Day charters on Biscayne Bay, captained and stocked, sized to your group — jet skis by the hour to match.</p></div>
       <div class="svc"><div class="num">IV</div><h3>Chauffeured Transport</h3><p>Luxury Sprinters and private drivers — airport to villa to dinner to the club, on your clock.</p></div>
       <div class="svc"><div class="num">V</div><h3>Security</h3><p>Executive protection and event security details, arranged with your itinerary.</p></div>
       <div class="svc"><div class="num">VI</div><h3>Section Booking</h3><p>VIP tables and sections at the rooms worth being in — walked in, seated, handled.</p></div>
@@ -297,15 +300,17 @@ const smsLink = body => `sms:+${CONFIG.phone}?&body=${encodeURIComponent(body)}`
 
 /* Villas: photo looks for assets/villas/<slug>.jpg; falls back to monogram placeholder. */
 const VILLAS = [
-  {name:"Villa Nova",    slug:"nova",        loc:"Brickell",          specs:"7 BR · 6.5 BA · Sleeps 14"},
-  {name:"Athena",        slug:"athena",      loc:"Miami",             specs:"Estate · Group stays"},
-  {name:"Eden",          slug:"eden",        loc:"Miami",             specs:"Estate · Group stays"},
-  {name:"Santorini",     slug:"santorini",   loc:"Miami",             specs:"Flagship estate"},
-  {name:"Playa Castillo",slug:"castillo",    loc:"Venetian Islands",  specs:"6 BR · 3.5 BA · Waterfront"},
-  {name:"Ikon",          slug:"ikon",        loc:"Miami",             specs:"Modern estate"},
-  {name:"Posh",          slug:"posh",        loc:"Miami",             specs:"Modern estate"},
-  {name:"Carriage",      slug:"carriage",    loc:"Miami",             specs:"Group stays"},
-  {name:"Blanco",        slug:"blanco",      loc:"Miami",             specs:"Flagship estate"},
+  {name:"Santorini",       slug:"santorini",    loc:"Waterfront · Miami Beach",   specs:"Private dock · Bay-front pool · Grand piano"},
+  {name:"Villa Nova",      slug:"nova",         loc:"Brickell",                   specs:"7 BR · 6.5 BA · Sleeps 14"},
+  {name:"Villa Eden",      slug:"eden",         loc:"Buena Vista · Design District", specs:"6 BR · 4.5 BA · Sleeps 12 · Heated pool"},
+  {name:"Playa Castillo",  slug:"playacastillo",loc:"Venetian Islands",           specs:"6 BR · 3.5 BA · Waterfront"},
+  {name:"Villa Babette",   slug:"hibiscus",     loc:"Hibiscus Island",            specs:"4 BR · 4 BA · Sleeps 8 · Dock · 50-ft pool"},
+  {name:"Bond",            slug:"bond",         loc:"Miami",                      specs:"Pool + spa · Billiards · Gym · Vaulted great room"},
+  {name:"Ikon",            slug:"ikon",         loc:"Brickell",                   specs:"Rooftop pool · Skyline views · Ping-pong"},
+  {name:"Villa Posh",      slug:"posh",         loc:"The Roads · Brickell",       specs:"4 BR · 4 BA · Sleeps 10 · Rooftop pool"},
+  {name:"Athena",          slug:"athena",       loc:"Miami",                      specs:"Dark-modern · Billiards lounge · Spa baths"},
+  {name:"Carriage",        slug:"carriage",     loc:"Miami",                      specs:"Black modern · Billiards + shuffleboard · Bunk rooms"},
+  {name:"Little Haiti Villa",slug:"littlehaiti",loc:"Little Haiti · Buena Vista", specs:"4 BR · 4 BA · Sleeps 12 · Glass façade"},
 ];
 
 /* ============ wiring ============ */
@@ -326,15 +331,19 @@ document.querySelector(".nav-cta").textContent = "Text to Book";
 const grid = document.getElementById("villaGrid");
 grid.innerHTML = VILLAS.map(v => `
   <div class="villa">
-    <div class="villa-img">
+    <a href="villas/${v.slug}.html" class="villa-img">
       <span class="mono">${v.name.split(" ").map(w=>w[0]).join("")}</span>
       <img src="assets/villas/${v.slug}.jpg" alt="${v.name}" loading="lazy" onerror="this.remove()">
-    </div>
+      <span class="villa-more">View photos</span>
+    </a>
     <div class="villa-body">
-      <h3>${v.name}</h3>
+      <h3><a href="villas/${v.slug}.html">${v.name}</a></h3>
       <div class="loc">${v.loc}</div>
       <div class="specs">${v.specs}</div>
-      <a href="${smsLink(`Hi — interested in ${v.name}. Dates: ___ · Group size: ___`)}">Text about ${v.name} →</a>
+      <div class="villa-links">
+        <a href="villas/${v.slug}.html">Photos &amp; details →</a>
+        <a href="${smsLink(`Hi — interested in ${v.name}. Dates: ___ · Group size: ___`)}">Text about it →</a>
+      </div>
     </div>
   </div>`).join("");
 
