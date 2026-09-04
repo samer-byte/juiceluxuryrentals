@@ -93,6 +93,9 @@
   .fleet-card ul{list-style:none}
   .fleet-card li{font-size:14px;color:var(--ink-dim);padding:9px 0;border-bottom:1px solid rgba(201,169,110,.08);display:flex;justify-content:space-between;gap:12px}
   .fleet-card li:last-child{border-bottom:none}
+  .fleet-link{display:block;transition:.3s}.fleet-link:hover{border-color:rgba(201,169,110,.45);transform:translateY(-3px)}
+  .fleet-img{aspect-ratio:16/9;overflow:hidden;margin:-34px -30px 22px;background:var(--card)}.fleet-img img{width:100%;height:100%;object-fit:cover}
+  .fleet-more{display:inline-block;margin-top:16px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:3px}
   .fleet-card li span:last-child{color:var(--ink-faint);font-size:12px;letter-spacing:.06em;white-space:nowrap}
 
   /* PROCESS */
@@ -132,7 +135,8 @@
     <a class="logo" href="#top">JUICE <b>LUXURY</b> RENTALS</a>
     <div class="nav-links">
       <a href="#villas">Villas</a>
-      <a href="#fleet">Cars &amp; Yachts</a>
+      <a href="cars.html">Cars</a>
+      <a href="yachts.html">Yachts</a>
       <a href="#process">How It Works</a>
       <a href="#inquire">Inquire</a>
     </div>
@@ -196,24 +200,28 @@
       <h2>Cars, water &amp; transport</h2>
     </div>
     <div class="fleet-wrap">
-      <div class="fleet-card">
+      <a class="fleet-card fleet-link" href="cars.html">
+        <div class="fleet-img"><img src="assets/cars/hero.jpg" alt="Exotic cars" loading="lazy"></div>
         <h3>The Garage</h3>
         <ul>
-          <li><span>Rolls-Royce Cullinan</span><span>SUV</span></li>
-          <li><span>Rolls-Royce Spectre</span><span>Coupe</span></li>
-          <li><span>Lamborghini Urus</span><span>SUV</span></li>
-          <li><span>Ferrari 488</span><span>Coupe</span></li>
-          <li><span>Ferrari 812</span><span>V12</span></li>
+          <li><span>Lamborghini Urus · S · Performante · Mansory</span><span>SUV</span></li>
+          <li><span>Rolls-Royce Cullinan · Spectre · Phantom</span><span>Rolls</span></li>
+          <li><span>Ferrari 488 · 812</span><span>V8 / V12</span></li>
+          <li><span>Bentley GTC · G63</span><span>Daily</span></li>
         </ul>
-      </div>
-      <div class="fleet-card">
+        <span class="fleet-more">Photos &amp; the full garage →</span>
+      </a>
+      <a class="fleet-card fleet-link" href="yachts.html">
+        <div class="fleet-img"><img src="assets/yachts/hero.jpg" alt="Yachts" loading="lazy"></div>
         <h3>The Water</h3>
         <ul>
-          <li><span>Day charters, Biscayne Bay</span><span>Captained</span></li>
-          <li><span>Yachts sized 8–13+ guests</span><span>Catalog on request</span></li>
-          <li><span>Wake &amp; sport boats</span><span>Seasonal</span></li>
+          <li><span>45 · 55 · 75 · 100-ft yachts</span><span>13–50 guests</span></li>
+          <li><span>Captain &amp; crew included</span><span>4-hr standard</span></li>
+          <li><span>Jet skis by the hour</span><span>Add-on</span></li>
+          <li><span>DC · Potomac charters</span><span>Home market</span></li>
         </ul>
-      </div>
+        <span class="fleet-more">Photos &amp; every boat →</span>
+      </a>
       <div class="fleet-card">
         <h3>The Ground</h3>
         <ul>
